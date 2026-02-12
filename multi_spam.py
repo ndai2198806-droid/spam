@@ -265,9 +265,9 @@ async def handle_grab(bot, msg, bot_num):
                     break # Dừng lại sau khi nhặt
                 
                 # HOẶC Kiểm tra socola 🌷
-                elif '🌷' in emoji_name:
-                    await target_message.add_reaction("🌷")
-                    print(f"[GRAB CTRL | Bot {bot_num}] ✅ NHẶT SOCOLA (🌷) THÀNH CÔNG!", flush=True)
+                elif '🌼' in emoji_name:
+                    await target_message.add_reaction("🌼")
+                    print(f"[GRAB CTRL | Bot {bot_num}] ✅ NHẶT SOCOLA (🌼) THÀNH CÔNG!", flush=True)
                     break # Dừng lại sau khi nhặt
                     
         except Exception as e:
